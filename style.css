@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Cinzel:wght@400;900&family=Playfair+Display:ital@0;1&family=Poppins:ital,wght@0,300;1,600&family=Ysabeau+Infant:wght@300&display=swap');
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Bitter', serif;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452)
+}
+
+.Button {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.row {
+    margin: 8px 0;
+}
+
+.row input {
+    font-size: 40px;   
+    text-align: right; 
+    margin: 10px;
+    padding: 24px;
+    border: none;
+    border-radius: 12px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
+    width: 320px;
+    cursor: pointer;
+}
+
+
+.container {
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
